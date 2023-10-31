@@ -1,0 +1,12 @@
+export enum ActionType {
+    PRODUCTS_DATA = "PRODUCTS_DATA",
+    WITHDRAW = "withdraw",
+    BANKRUPT = "bankrupt",
+    ADD_TO_CART = "ADD_TO_CART",
+    REMOVE_TO_CART="REMOVE_TO_CART",
+    CHECKED_OUT = "CHECKED_OUT",
+    USER_CART="USER_CART",
+    ALL_CATEGORIES="ALL_CATEGORIES",
+    ADD="ADD",
+    SUBTRACT="SUBTRACT"
+  }

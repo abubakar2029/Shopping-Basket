@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary-color: #fff;
+    --secondary-color: #000;
+    --TertiaryColor-color: #94a3b8;
+    --QuaternaryColor-color: #f3f4f6;
+  }
+  
+  @layer base {
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }
